@@ -30,7 +30,7 @@ class GoogleTranslate {
       return response.data.data.translations[0].translatedText;
     } catch (error) {
       throw new Error(
-        error.response?.data?.error?.message || "Translation failed"
+        (error.response && error.response.data && error.response.data.error && error.response.data.error.message) || "Translation failed"
       );
     }
   }

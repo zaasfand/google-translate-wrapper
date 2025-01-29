@@ -1,0 +1,23 @@
+{
+  "name": "google-translate-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaasfand/google-translate-wrapper.git"
+  },
+  "keywords": [],
+  "author": "Asfand Yar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaasfand/google-translate-wrapper/issues"
+  },
+  "homepage": "https://github.com/zaasfand/google-translate-wrapper#readme",
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
